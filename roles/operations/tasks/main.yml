@@ -2,90 +2,20 @@
 ############
 #Add objects
 ############
-- include: bigip_node/add_node.yml
-  vars:
-    - host: "10.1.20.11"
-    - name: "Lamp"
-    - monitor: "/Common/icmp"
-  when: state == "present"
 
-- include: bigip_pool/manage_pool.yml
-  vars:
-    - name: "Lamp_pl"
-    - monitor: "/Common/http_head_f5"
-  when: state == "present"
-
-- include: bigip_pool_member/manage_members.yml
-  vars:
-    - host: "Lamp"
-    - pool: "Lamp_pl"
-    - port: "8081"
-  when: state == "present"
-
-- include: bigip_irule/manage_irule.yml
-  when: state == "present"
-
-- include: bigip_monitor_tcp/manage_tcp_monitor.yml
-  when: state == "present"
-
-- include: bigip_monitor_http/manage_http_monitor.yml
-  when: state == "present"
-
-- include: bigip_virtual_server/manage_vip.yml
-  vars:
-    - description: "Lamp_vs"
-    - destination: "10.1.10.15"
-    - name: "Lamp_vs"
-    - pool: "Lamp_pl"
-    - port: "80"
-    - snat: "Automap"
-    - all_profiles: "http"
-    - all_rules: "Bodgeit_Rewrite"
-  when: state == "present"
 
 - include: bigip_iapp_template/appsvcs.yml
   when: state == "present"
 
-- include: bigip_iapp_service/appsvcs.yml
+- include: bigip_iapp_service/app1_svc.yml
   when: state == "present"
 
 ###############
 #Remove objects
 ###############
-- include: bigip_virtual_server/manage_vip.yml
-  vars:
-    - description: "Lamp_vs"
-    - destination: "10.1.10.15"
-    - name: "Lamp_vs"
-    - pool: "Lamp_pl"
-    - port: "80"
-    - snat: "Automap"
-    - all_profiles: "http"
-    - all_rules: "Bodgeit_Rewrite"
-  when: state == "absent"
 
-- include: bigip_irule/manage_irule.yml
-  when: state == "absent"
 
-- include: bigip_monitor_tcp/manage_tcp_monitor.yml
-  when: state == "absent"
-
-- include: bigip_monitor_http/manage_http_monitor.yml
-  when: state == "absent"
-
-- include: bigip_pool/manage_pool.yml
-  vars:
-    - name: "Lamp_pl"
-    - monitor: "/Common/http_head_f5"
-  when: state == "absent"
-
-- include: bigip_node/remove_node.yml
-  vars:
-    - name: "Lamp"
-    - monitor: "/Common/icmp"
-  when: state == "absent"
-
-- include: bigip_iapp_service/appsvcs.yml
+- include: bigip_iapp_service/app1_svc.yml
   when: state == "absent"
 
 - include: bigip_iapp_template/appsvcs.yml
