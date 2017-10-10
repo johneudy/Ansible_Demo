@@ -3,7 +3,7 @@
    "parent":"include_defaults.json",
    "strings":[
       { "pool__addr":"10.1.0.16" },
-      { "pool__port":"80" },
+      { "pool__port":"80" }
    ],
    "tables":[
       {
