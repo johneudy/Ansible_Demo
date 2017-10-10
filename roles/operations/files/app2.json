@@ -227,11 +227,6 @@
          "value":"auto"
       },
       {
-         "name":"iapp__routeDomain",
-         "encrypted":"no",
-         "value":"auto"
-      },
-      {
          "name":"iapp__strictUpdates",
          "encrypted":"no",
          "value":"enabled"
