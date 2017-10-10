@@ -1,5 +1,5 @@
 {
-   "parent":"include_defaults.json",
+   "parent":"appsvcs.json",
    "variables":[
       { "iapp__routeDomain":"auto" },
       { "pool__addr":"10.1.0.16" },
