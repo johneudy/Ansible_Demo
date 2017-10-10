@@ -142,11 +142,6 @@
          "name":"vs__SNATConfig",
          "encrypted":"no",
          "value":"automap"
-      },
-      {
-         "name":"vs__SourceAddress",
-         "encrypted":"no",
-         "value":"0.0.0.0/0"
       }
    ]
 }
