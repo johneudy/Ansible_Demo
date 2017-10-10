@@ -14,7 +14,7 @@
                   "0",
                   "app2_http_monitor",
                   "http",
-                  "send=GET / HTTP/1.1\\r\\nHost: app1.f5demo.com\\r\\nConnection: Close\\r\\n;recv=Node #"
+                  "send=GET / HTTP/1.1\\r\\nHost: app2.f5demo.com\\r\\nConnection: Close\\r\\n;recv=Node #"
                ]
             }
          ]
