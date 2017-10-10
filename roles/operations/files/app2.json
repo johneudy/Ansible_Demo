@@ -1,6 +1,6 @@
 {
    "parent":"include_defaults.json",
-   "strings":[
+   "variables":[
       { "iapp__routeDomain":"auto" },
       { "pool__addr":"10.1.0.16" },
       { "pool__port":"80" }
