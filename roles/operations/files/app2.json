@@ -1,5 +1,5 @@
 {
-   "parent":"include_defaults.json",
+   "parent":"/home/snops/Ansible_Demo/roles/operations/files/include_defaults.json",
    "strings":[
       { "pool__addr":"10.1.0.16" },
       { "pool__port":"80" }
