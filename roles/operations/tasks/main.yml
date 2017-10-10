@@ -9,6 +9,10 @@
 
 - include: bigip_iapp_service/app1_svc.yml
   when: state == "present"
+  
+- include: bigip_iapp_service/app2_svc.yml
+  when: state == "present"
+  
 
 ###############
 #Remove objects
@@ -17,7 +21,10 @@
 
 - include: bigip_iapp_service/app1_svc.yml
   when: state == "absent"
-
+  
+- include: bigip_iapp_service/app2_svc.yml
+  when: state == "absent"  
+  
 - include: bigip_iapp_template/appsvcs.yml
   when: state == "absent"
 ...
