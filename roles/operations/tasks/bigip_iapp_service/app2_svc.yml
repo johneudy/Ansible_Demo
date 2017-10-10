@@ -9,5 +9,6 @@
     validate_certs: "false"
     state: "{{ state }}"
     parameters: "{{ lookup('file', 'app2.json') }}"
+    parent: "include_defaults.json"
   delegate_to: localhost
 ...
