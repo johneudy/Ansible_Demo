@@ -342,7 +342,7 @@
       },
       {
          "name":"vs__ProfileClientSSL",
-         "value":"/Common/clientssl",
+         "value":"",
          "encrypted":"no"
       },
       {
@@ -352,7 +352,7 @@
       },
       {
          "name":"vs__ProfileClientSSLCert",
-         "value":"/home/snops/Ansible_Demo/roles/operations/files/certs/app1.f5demo.com.crt",
+         "value":"url=http://localhost:8080/Ansible_Demo/roles/operations/files/certs/app1.f5demo.com.crt",
          "encrypted":"no"
       },
       {
@@ -367,7 +367,7 @@
       },
       {
          "name":"vs__ProfileClientSSLKey",
-         "value":"/home/snops/Ansible_Demo/roles/operations/files/certs/app1.f5demo.com.key",
+         "value":"url=http://localhost:8080/Ansible_Demo/roles/operations/files/certs/app1.f5demo.com.key",
          "encrypted":"no"
       },
       {
