@@ -89,6 +89,11 @@
          "value":"auto"
       },
       {
+         "name":"iapp__routedomain",
+         "encrypted":"no",
+         "value":"auto"
+      },
+      {
          "name":"pool__addr",
          "encrypted":"no",
          "value":"10.1.10.16"
