@@ -1,4 +1,5 @@
 {
+   "parent":"appsvcs.json"
    "tables":[
       {
          "name":"feature__easyL4FirewallBlacklist",
