@@ -62,7 +62,7 @@
                   "0",
                   "app1_monitor",
                   "http",
-                  "send='GET /'"
+                  "send=GET / HTTP/1.1\r\nHost: app1.f5demo.com\r\nConnection: Close\r\n"
                ]
             }
          ]
