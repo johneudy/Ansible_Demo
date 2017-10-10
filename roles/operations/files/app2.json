@@ -313,7 +313,7 @@
       {
          "name":"vs__Name",
          "encrypted":"no",
-         "value":"app1.f5demo.com"
+         "value":"app2.f5demo.com"
       },
       {
          "name":"vs__OptionConnectionMirroring",
