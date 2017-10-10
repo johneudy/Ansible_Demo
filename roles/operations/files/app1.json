@@ -273,7 +273,7 @@
       {
          "name":"pool__port",
          "encrypted":"no",
-         "value":"80"
+         "value":"443"
       },
       {
          "name":"vs__AdvOptions",
@@ -313,7 +313,7 @@
       {
          "name":"vs__Name",
          "encrypted":"no",
-         "value":"app1.f5demo.com_80"
+         "value":"app1.f5demo.com"
       },
       {
          "name":"vs__OptionConnectionMirroring",
@@ -342,7 +342,7 @@
       },
       {
          "name":"vs__ProfileClientSSL",
-         "value":"",
+         "value":"/Common/clientssl",
          "encrypted":"no"
       },
       {
@@ -352,7 +352,7 @@
       },
       {
          "name":"vs__ProfileClientSSLCert",
-         "value":"",
+         "value":"/home/snops/Ansible_Demo/roles/operations/files/certs/app1.f5demo.com.crt",
          "encrypted":"no"
       },
       {
@@ -367,7 +367,7 @@
       },
       {
          "name":"vs__ProfileClientSSLKey",
-         "value":"",
+         "value":"/home/snops/Ansible_Demo/roles/operations/files/certs/app1.f5demo.com.key",
          "encrypted":"no"
       },
       {
