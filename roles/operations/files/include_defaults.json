@@ -5,7 +5,7 @@
     "inheritedTrafficGroup": "true",
     "trafficGroup": "/Common/traffic-group-local-only",
     "partition":"Common",
-	"strings":[
+	"variables":[
 		{ "iapp__strictUpdates":"enabled" },
 		{ "iapp__appStats":"enabled" },
 		{ "iapp__mode":"auto" },
