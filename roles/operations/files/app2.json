@@ -1,5 +1,4 @@
 {
-   "name":"myapp2_test",
    "parent":"include_defaults.json",
    "strings":[
       { "pool__addr":"10.1.0.16" },
