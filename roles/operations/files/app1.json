@@ -62,7 +62,7 @@
                   "0",
                   "app1_http_monitor",
                   "http",
-                  "send=GET / HTTP/1.1\\r\\nHost: app1.f5demo.com\\r\\nConnection: Close\\r\\n;recv=Using virtual server"
+                  "send=GET / HTTP/1.1\\r\\nHost: app1.f5demo.com\\r\\nConnection: Close\\r\\n;recv=Using virtual server 1"
                ]
             }
          ]
