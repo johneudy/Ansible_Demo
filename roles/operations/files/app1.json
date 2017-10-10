@@ -60,9 +60,9 @@
             {
                "row":[
                   "0",
-                  "",
+                  "app1_monitor",
                   "http",
-                  "send=GET,recv=200"
+                  "send='GET /'"
                ]
             }
          ]
