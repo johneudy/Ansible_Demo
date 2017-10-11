@@ -382,12 +382,12 @@
       },
       {
          "name":"vs__ProfileDefaultPersist",
-         "value":"",
+         "value":"/Common/cookie",
          "encrypted":"no"
       },
       {
          "name":"vs__ProfileFallbackPersist",
-         "value":"",
+         "value":"/Common/source_addr",
          "encrypted":"no"
       },
       {
