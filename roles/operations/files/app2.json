@@ -370,86 +370,22 @@
          "value":"url=http://10.1.10.1:8080/Ansible_Demo/roles/operations/files/certs/app2.f5demo.com.key",
          "encrypted":"no"
       },
-      {
-         "name":"vs__ProfileCompression",
-         "value":"",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__ProfileConnectivity",
-         "value":"",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__ProfileDefaultPersist",
-         "value":"",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__ProfileFallbackPersist",
-         "value":"",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__ProfileHTTP",
-         "value":"/Common/http",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__ProfileOneConnect",
-         "value":"",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__ProfilePerRequest",
-         "value":"",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__ProfileRequestLogging",
-         "value":"",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__ProfileSecurityDoS",
-         "value":"",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__ProfileSecurityIPBlacklist",
-         "encrypted":"no",
-         "value":"none"
-      },
-      {
-         "name":"vs__ProfileSecurityLogProfiles",
-         "value":"",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__ProfileServerProtocol",
-         "value":"",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__ProfileServerSSL",
-         "value":"",
-         "encrypted":"no"
-      },
-      {
-         "name":"vs__RouteAdv",
-         "encrypted":"no",
-         "value":"disabled"
-      },
-      {
-         "name":"vs__SNATConfig",
-         "encrypted":"no",
-         "value":"automap"
-      },
-      {
-         "name":"vs__SourceAddress",
-         "encrypted":"no",
-         "value":"0.0.0.0/0"
-      },
-      { "name":"vs__VirtualAddrAdvOptions", "value":"", "encrypted":"no" }
+		{ "name":"vs__ProfileCompression", "value":"", "encrypted":"no" }, 
+		{ "name":"vs__ProfileConnectivity", "value":"", "encrypted":"no" }, 
+		{ "name":"vs__ProfileDefaultPersist", "value":"", "encrypted":"no" }, 
+		{ "name":"vs__ProfileFallbackPersist", "value":"", "encrypted":"no" }, 
+		{ "name":"vs__ProfileHTTP", "value":"/Common/http", "encrypted":"no" }, 
+		{ "name":"vs__ProfileOneConnect", "value":"", "encrypted":"no" }, 
+		{ "name":"vs__ProfilePerRequest", "value":"", "encrypted":"no" }, 
+		{ "name":"vs__ProfileRequestLogging", "value":"", "encrypted":"no" }, 
+		{ "name":"vs__ProfileSecurityDoS", "value":"", "encrypted":"no" }, 
+		{ "name":"vs__ProfileSecurityIPBlacklist", "encrypted":"no", "value":"none" }, 
+		{ "name":"vs__ProfileSecurityLogProfiles", "value":"", "encrypted":"no" }, 
+		{ "name":"vs__ProfileServerProtocol", "value":"", "encrypted":"no" }, 
+		{ "name":"vs__ProfileServerSSL", "value":"", "encrypted":"no" }, 
+		{ "name":"vs__RouteAdv", "encrypted":"no", "value":"disabled" }, 
+		{ "name":"vs__SNATConfig", "encrypted":"no", "value":"automap" }, 
+		{ "name":"vs__SourceAddress", "encrypted":"no", "value":"0.0.0.0/0" }, 
+		{ "name":"vs__VirtualAddrAdvOptions", "value":"", "encrypted":"no" }
    ]
 }
