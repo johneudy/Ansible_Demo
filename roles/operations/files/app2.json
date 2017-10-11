@@ -32,16 +32,16 @@
       {
 		"name":"pool__Members", 
 		"columnNames":[ "Index", "IPAddress", "Port", "ConnectionLimit", "Ratio", "PriorityGroup", "State", "AdvOptions" ],
-         "rows":[
+        "rows":[
 			{ "row":[ "0", "10.1.20.11", "80", "0", "1", "0", "enabled", "none" ] },
 			{ "row":[ "0", "10.1.20.12", "80", "0", "1", "0", "enabled", "none" ] }
          ]
       },
 		{ 
-			"name":"pool__Pools", 
-			"columnNames":[ "Index", "Name", "Description", "LbMethod", "Monitor", "AdvOptions" ],
-			"rows":[
-				{ "row":[ "0", "", "", "round-robin", "0", "none" ] }
+		"name":"pool__Pools", 
+		"columnNames":[ "Index", "Name", "Description", "LbMethod", "Monitor", "AdvOptions" ],
+		"rows":[
+			{ "row":[ "0", "", "", "round-robin", "0", "none" ] }
 		 ]
       },
       {
