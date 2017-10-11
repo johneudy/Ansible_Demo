@@ -60,8 +60,8 @@
             {
                "row":[
                   "0",
-                  "app1_http_monitor",
-                  "http",
+                  "app1_https_monitor",
+                  "https",
                   "send=GET / HTTP/1.1\\r\\nHost: app1.f5demo.com\\r\\nConnection: Close\\r\\n;recv=Node #"
                ]
             }
@@ -84,7 +84,7 @@
                "row":[
                   "0",
                   "10.1.20.11",
-                  "80",
+                  "443",
                   "0",
                   "1",
                   "0",
@@ -96,7 +96,7 @@
                 "row":[
                     "0",
                     "10.1.20.12",
-                    "80",
+                    "443",
                     "0",
                     "1",
                     "0",
@@ -432,7 +432,7 @@
       },
       {
          "name":"vs__ProfileServerSSL",
-         "value":"",
+         "value":"/Common/serverssl",
          "encrypted":"no"
       },
       {
