@@ -28,8 +28,8 @@ The user_repos.json file is used to dynamically pull down whatever Github reposi
 {
 	"repos": [
 		{
-			"name":"Ansible_Meetups",
-			"repo":"https://github.com/jmcalalang/Ansible_Meetups.git",
+			"name":"Ansible_Demo",
+			"repo":"https://github.com/johneudy/Ansible_Demo.git",
 			"branch":"master",
 			"skip":false,
 			"skipinstall":true
