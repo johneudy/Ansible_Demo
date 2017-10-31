@@ -30,7 +30,7 @@
             "Parameter"
          ],
          "rows":[
-            { "row": ["default","asm/request/enable/policy","bundled:app1.f5demo.com_asm_pol"] }
+            { "row": ["0","asm/request/enable/policy","bundled:app1.f5demo.com_asm_pol"] }
          ]
       },
       {
@@ -45,7 +45,7 @@
             "Missing"
          ],
          "rows":[
-             { "row": ["default","","no","","","no","no"]}
+             { "row": ["0","","no","","","no","no"]}
          ]
       },
       {
@@ -135,9 +135,7 @@
             "Resource"
          ],
          "rows":[
-            {
-               "row": ["url=http://10.1.10.1:8080/Ansible_Demo/roles/operations/files/asm/app1.f5demo.com_asm_pol.xml"]
-            }
+            {"row": ["url=http://10.1.10.1:8080/Ansible_Demo/roles/operations/files/asm/app1.f5demo.com_asm_pol.xml"]}
          ]
       },
       {
@@ -215,7 +213,7 @@
       {
          "name":"iapp__asmDeployMode",
          "encrypted":"no",
-         "value":"preserve-bypass"
+         "value":"preserve-block"
       },
       {
          "name":"iapp__logLevel",
