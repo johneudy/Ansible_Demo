@@ -30,7 +30,7 @@
             "Parameter"
          ],
          "rows":[
- 
+            { "row": ["default","asm/request/enable/policy","bundled:app1.f5demo.com_asm_pol"] }
          ]
       },
       {
@@ -45,7 +45,7 @@
             "Missing"
          ],
          "rows":[
- 
+             { "row": ["default","","no","","","no","no"]}
          ]
       },
       {
