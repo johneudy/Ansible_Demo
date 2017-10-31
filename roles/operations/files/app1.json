@@ -30,7 +30,7 @@
             "Parameter"
          ],
          "rows":[
-            { "row": ["default","asm/request/enable/policy","bundled:app1.f5demo.com_asm_pol"] }
+
          ]
       },
       {
@@ -45,7 +45,7 @@
             "Missing"
          ],
          "rows":[
-             { "row": ["default","","no","","","no","no"]}
+
          ]
       },
       {
@@ -135,7 +135,7 @@
             "Resource"
          ],
          "rows":[
-            {"row": ["asm:url=http://10.1.10.1:8080/Ansible_Demo/roles/operations/files/asm/app1.f5demo.com_asm_pol.xml"]}
+
          ]
       },
       {
@@ -213,12 +213,12 @@
       {
          "name":"iapp__asmDeployMode",
          "encrypted":"no",
-         "value":"redeploy-block"
+         "value":"preserver-bypass"
       },
       {
          "name":"iapp__logLevel",
          "encrypted":"no",
-         "value":"10"
+         "value":"7"
       },
       {
          "name":"iapp__mode",
@@ -238,7 +238,7 @@
       {
          "name":"l7policy__defaultASM",
          "encrypted":"no",
-         "value":"bundled:app1.f5demo.com_asm_pol"
+         "value":"bypass"
       },
       {
          "name":"l7policy__defaultL7DOS",
