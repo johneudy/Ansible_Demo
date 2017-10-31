@@ -218,7 +218,7 @@
       {
          "name":"iapp__logLevel",
          "encrypted":"no",
-         "value":"7"
+         "value":"10"
       },
       {
          "name":"iapp__mode",
