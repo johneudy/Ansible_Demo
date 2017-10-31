@@ -135,7 +135,7 @@
             "Resource"
          ],
          "rows":[
-            {"row": ["url=http://10.1.10.1:8080/Ansible_Demo/roles/operations/files/asm/app1.f5demo.com_asm_pol.xml"]}
+            {"row": ["asm:url=http://10.1.10.1:8080/Ansible_Demo/roles/operations/files/asm/app1.f5demo.com_asm_pol.xml"]}
          ]
       },
       {
