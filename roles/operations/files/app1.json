@@ -213,7 +213,7 @@
       {
          "name":"iapp__asmDeployMode",
          "encrypted":"no",
-         "value":"preserve-block"
+         "value":"redeploy-block"
       },
       {
          "name":"iapp__logLevel",
