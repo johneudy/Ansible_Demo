@@ -240,7 +240,7 @@
       {
          "name":"l7policy__defaultASM",
          "encrypted":"no",
-         "value":"bypass"
+         "value":"bundled:app1.f5demo.com_asm_pol"
       },
       {
          "name":"l7policy__defaultL7DOS",
