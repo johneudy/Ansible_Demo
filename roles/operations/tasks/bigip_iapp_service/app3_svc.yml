@@ -1,0 +1,13 @@
+---
+- name: Configure a appsvcs iapp service using parameters in JSON document
+  bigip_iapp_service:
+    name: "app3_svcs"
+    user: "{{ username }}"
+    password: "{{ password }}"
+    server: "{{ inventory_hostname }}"
+    template: "appsvcs_integration_v2.0.004"
+    validate_certs: "false"
+    state: "{{ state }}"
+    parameters: "{{ lookup('file', 'app3.json') }}"
+  delegate_to: localhost
+...
