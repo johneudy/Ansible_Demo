@@ -17,8 +17,8 @@
       },
       {	"name":"l7policy__rulesMatch", "columnNames":[ "Group", "Operand", "Negate", "Condition", "Value", "CaseSensitive", "Missing" ],
          "rows":[
-            {"row":["0", "http-host/request/host", "no", "equals", "app1.f5demo.com", "no", "no"],
-            {"row":["default", "", "no", "equals", "", "no", "no]
+            {"row":["0", "http-host/request/host", "no", "equals", "app1.f5demo.com", "no", "no"]},
+            {"row":["default", "", "no", "equals", "", "no", "no"]}
          ]
       },
       {"name":"monitor__Monitors", "columnNames":[ "Index", "Name", "Type", "Options" ],
