@@ -11,7 +11,7 @@
       },
       {"name":"l7policy__rulesAction","columnNames":[ "Group", "Target", "Parameter" ],
          "rows":[
-            {"row":[ "0", "asm/request/enable/policy", "bundled:app1_asm_pol" ]},
+            {"row":[ "0", "asm/request/enable/policy", "bundled:app1.f5demo.com_asm_pol" ]},
             {"row":[ "default", "forward/request/reset", "" ]}  
          ]
       },
