@@ -10,15 +10,11 @@
          ]
       },
       {"name":"l7policy__rulesAction","columnNames":[ "Group", "Target", "Parameter" ],
-         "rows":[
-            {"row":[ "0", "asm/request/enable/policy", "bundled:app1.f5demo.com_asm_pol" ]},
-            {"row":[ "default", "forward/request/reset", "none" ]}  
+         "rows":[ 
          ]
       },
       {	"name":"l7policy__rulesMatch", "columnNames":[ "Group", "Operand", "Negate", "Condition", "Value", "CaseSensitive", "Missing" ],
          "rows":[
-            {"row":[ "0", "http-host/request/host", "no", "equals", "app1.f5demo.com", "no", "no" ]},
-            {"row":[ "default", "", "no", "equals", "", "no", "no" ]}
          ]
       },
       {"name":"monitor__Monitors", "columnNames":[ "Index", "Name", "Type", "Options" ],
@@ -40,7 +36,6 @@
       },
       {"name":"vs__BundledItems", "columnNames":[ "Resource" ],
          "rows":[
-            {"row":["asm:url=http://10.1.10.1:8080/Ansible_Demo/roles/operations/files/asm/app1.f5demo.com_asm_pol.xml"]}
          ]
       },
       {"name":"vs__Listeners", "columnNames":[ "Listener", "Destination" ],
