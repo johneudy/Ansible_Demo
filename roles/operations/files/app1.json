@@ -81,7 +81,7 @@
       {"name":"vs__OptionSourcePort", "value":"preserve", "encrypted":"no" }, 
       {"name":"vs__ProfileAccess", "value":"", "encrypted":"no" }, 
       {"name":"vs__ProfileAnalytics", "value":"", "encrypted":"no" },
-      {"name":"vs__ProfileClientProtocol", "value":"/Common/tcp", "encrypted":"no" },
+      {"name":"vs__ProfileClientProtocol", "value":"create:type=tcp;nagle=disabled;idle-timeout=600;fin-wait-timeout=300;defaults-from=/Common/tcp-wan-optimized", "encrypted":"no" },
       {"name":"vs__ProfileClientSSL", "value":"", "encrypted":"no" },
       {"name":"vs__ProfileClientSSLAdvOptions", "value":"", "encrypted":"no" },
       {"name":"vs__ProfileClientSSLCert", "value":"url=http://10.1.10.1:8080/Ansible_Demo/roles/operations/files/certs/app1.f5demo.com.crt", "encrypted":"no" }, 
