@@ -6,7 +6,9 @@
       },
       {"name":"feature__easyL4FirewallSourceList", "columnNames":[ "CIDRRange" ],
          "rows":[
-            {"row":[ "0.0.0.0/0" ] }
+            {"row":[ "12.133.87.55/32" ] },
+            {"row":[ "12.234.128.12/32" ] },
+            {"row":[ "12.89.2.235/32" ] }
          ]
       },
       {"name":"l7policy__rulesAction","columnNames":[ "Group", "Target", "Parameter" ],
