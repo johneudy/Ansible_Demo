@@ -28,7 +28,7 @@
          "rows":[
             {"row":[ "0", "10.1.20.11", "443", "0", "1", "0", "enabled", "none" ]},
             {"row":[ "0", "10.1.20.12", "443", "0", "1", "0", "enabled", "none" ]},
-            {"row":[ "0", "10.1.20.13", "443", "0", "1", "0", "enabled", "none" ]}
+            {"row":[ "0", "10.1.20.13", "443", "0", "1", "0", "disabled", "none" ]}
          ]
       },
       {"name":"pool__Pools", "columnNames":[ "Index", "Name", "Description", "LbMethod", "Monitor", "AdvOptions" ],
