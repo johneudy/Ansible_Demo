@@ -10,6 +10,13 @@
     - monitor: "/Common/icmp"
   when: state == "present"
   
+  - include: bigip_node/add_node.yml 
+  vars: 
+    - host: "10.1.20.16" 
+    - name: "member2" 
+    - monitor: "/Common/icmp"
+  when: state == "present"
+  
 - include: bigip_pool/manage_pool.yml 
   vars: 
     - name: "pool1"
