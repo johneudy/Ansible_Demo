@@ -21,13 +21,22 @@
     - name: "pool1"
     - monitor: "/Common/http_head_f5"
   when: state == "present"
-
+  
 - include: bigip_pool_member/manage_members.yml 
   vars: 
     - host: "member1" 
     - pool: "pool1"
     - port: "8080"
-    - session_state: "disabled"
+    - session_state: "enabled"
+    - monitor_state: "enabled"
+  when: state == "present"  
+
+- include: bigip_pool_member/manage_members.yml 
+  vars: 
+    - host: "member2" 
+    - pool: "pool1"
+    - port: "8080"
+    - session_state: "enabled"
     - monitor_state: "enabled"
   when: state == "present"
   
