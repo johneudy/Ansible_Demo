@@ -8,6 +8,7 @@
     pool: "{{ pool }}"
     port: "{{ port }}"
     state: "{{ state }}"
+    session_state: "{{ session_state }}"
     validate_certs: "false"
   delegate_to: localhost
 ...
