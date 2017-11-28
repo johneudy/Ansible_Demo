@@ -9,6 +9,13 @@
     - name: "member1" 
     - monitor: "/Common/icmp"
   when: state == "present"
+  
+  - include: bigip_node/add_node.yml 
+  vars: 
+    - host: "10.1.20.16" 
+    - name: "member2" 
+    - monitor: "/Common/icmp"
+  when: state == "present"
 
 - include: bigip_pool/manage_pool.yml 
   vars: 
@@ -21,7 +28,15 @@
     - host: "member1" 
     - pool: "pool1"
     - port: "8080"
-    - session_state: "disabled"
+    - session_state: "enabled"
+  when: state == "present"
+  
+  - include: bigip_pool_member/manage_members.yml 
+  vars: 
+    - host: "member2" 
+    - pool: "pool1"
+    - port: "8080"
+    - session_state: "enabled"
   when: state == "present"
 
 - include: bigip_irule/manage_irule.yml
@@ -91,6 +106,12 @@
 - include: bigip_node/remove_node.yml 
   vars:
     - name: "member1" 
+    - monitor: "/Common/icmp"
+  when: state == "absent"
+  
+  - include: bigip_node/remove_node.yml 
+  vars:
+    - name: "member2" 
     - monitor: "/Common/icmp"
   when: state == "absent"
 
