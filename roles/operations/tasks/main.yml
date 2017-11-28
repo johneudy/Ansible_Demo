@@ -2,11 +2,17 @@
 ############
 #Add objects
 ############
+- include: bigip_node/add_node.yml 
+  vars: 
+    - host: "10.1.20.14" 
+    - name: "member1" 
+    - monitor: "/Common/icmp"
+  when: state == "present"
 
 - include: bigip_node/add_node.yml 
   vars: 
     - host: "10.1.20.15" 
-    - name: "member1" 
+    - name: "member2" 
     - monitor: "/Common/icmp"
   when: state == "present"
   
