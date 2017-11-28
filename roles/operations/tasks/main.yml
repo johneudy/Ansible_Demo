@@ -21,6 +21,7 @@
     - host: "member1" 
     - pool: "pool1"
     - port: "8080"
+    - session_state: "disabled"
   when: state == "present"
 
 - include: bigip_irule/manage_irule.yml
