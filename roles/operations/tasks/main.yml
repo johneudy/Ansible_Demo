@@ -36,7 +36,7 @@
     - host: "member2" 
     - pool: "pool1"
     - port: "8080"
-    - session_state: "enabled"
+    - session_state: "disabled"
     - monitor_state: "enabled"
   when: state == "present"
   
