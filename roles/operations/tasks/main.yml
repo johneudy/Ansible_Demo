@@ -109,6 +109,12 @@
     - name: "member1" 
     - monitor: "/Common/icmp"
   when: state == "absent"
+
+- include: bigip_node/remove_node.yml 
+  vars:
+    - name: "member2" 
+    - monitor: "/Common/icmp"
+  when: state == "absent"
   
 - include: bigip_iapp_service/app1_svc.yml
   when: state == "absent"
