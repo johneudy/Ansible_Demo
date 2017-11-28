@@ -9,6 +9,7 @@
     port: "{{ port }}"
     state: "{{ state }}"
     session_state: "{{ session_state }}"
+    monitor_state: "{{ monitor_state }}"
     validate_certs: "false"
   delegate_to: localhost
 ...
