@@ -43,12 +43,6 @@
 - include: bigip_irule/manage_irule.yml
   when: state == "present"
 
-#- include: bigip_monitor_tcp/manage_tcp_monitor.yml
-#  when: state == "present"
-
-#- include: bigip_monitor_http/manage_http_monitor.yml
-#  when: state == "present"
-
 - include: bigip_virtual_server/manage_vip.yml 
   vars:
     - description: "foo-vip" 
@@ -90,12 +84,6 @@
   when: state == "absent"
 
 - include: bigip_irule/manage_irule.yml
-  when: state == "absent"
-
-- include: bigip_monitor_tcp/manage_tcp_monitor.yml
-  when: state == "absent"
-
-- include: bigip_monitor_http/manage_http_monitor.yml
   when: state == "absent"
 
 - include: bigip_pool/manage_pool.yml 
